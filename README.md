@@ -15,7 +15,7 @@ An evergreen résumé in html & css.
 - [ ] Built with vanilla html & css
 - [ ] Measure site size.  Check out [Ecograder](https://ecograder.com/) or add the [Website Carbon Calculator](https://www.websitecarbon.com/) badge!
 - [ ] Privacy-friendly analytics by [Plausible](https://plausible.io/)
-- [ ] Title should float.  Understated, but adding a little motion to an otherwise static site. Inspiration from [Xavier]([https://codepen.io/xavier_ho/pen/GRWZKpq).
+- [ ] Title should float.  Understated, but adding a little motion to an otherwise static site. Inspiration from [Xavier](https://codepen.io/xavier_ho/pen/GRWZKpq).
 - [ ] See [Fonts Playground](https://github.com/jas0nmjames/fonts-playground): [Bungee](https://djr.com/bungee)
 
 ## Resources
