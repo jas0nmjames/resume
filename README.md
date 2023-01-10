@@ -19,13 +19,10 @@ An evergreen résumé in html & css.
 ## Resources
 
 - [How Figma Put the Bounce in Spring Animations](https://www.figma.com/blog/how-we-built-spring-animations/)
-
 - [Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/)
 - CSS Tricks' CSS Almanac: [animation](https://css-tricks.com/almanac/properties/a/animation/)
 - Smashing Magazine: [The Guide To CSS Animation: Principles and Examples](https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/)
 - Wikipedia: [12 Basic Principles of Animation](https://en.m.wikipedia.org/wiki/Twelve_basic_principles_of_animation)
-
----
 
 ## Journal
 
