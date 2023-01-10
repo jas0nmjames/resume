@@ -24,3 +24,11 @@ An evergreen résumé in html & css.
 - CSS Tricks' CSS Almanac: [animation](https://css-tricks.com/almanac/properties/a/animation/)
 - Smashing Magazine: [The Guide To CSS Animation: Principles and Examples](https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/)
 - Wikipedia: [12 Basic Principles of Animation](https://en.m.wikipedia.org/wiki/Twelve_basic_principles_of_animation)
+
+---
+
+## Journal
+
+- 2023-01-10 - Played with [Spring Animations](https://www.figma.com/community/file/1100581821937139565) in Figma
+- 2023-01-10 - Created this readme.
+- 2023-01-10 - Created this repository.
