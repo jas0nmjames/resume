@@ -1,0 +1,21 @@
+/* Typography */
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Bungee', cursive;
+}
+
+p, li, summary {
+  font-family: 'Lexend', Helvetica, Arial, sans-serif;
+}
+
+details > p {
+  font-family: 'Inter', sans-serif, 'Georgia', serif;
+}
+
+footer > p {
+  font-family: 'Inter', sans-serif, 'Georgia', serif;
+}

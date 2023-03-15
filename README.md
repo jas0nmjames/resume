@@ -4,8 +4,8 @@ An evergreen résumé in html & css.
 
 ## Rationale
 
-- Have a seperate repository for just my resume which I can link to regardless of the state of my portfolio or where it's deployed from.
-- Experiment with deploying with netlify before I create my porfolio with 11.ty and deploy there
+- Have a separate repository for just my resume which I can link to regardless of the state of my portfolio or where it's deployed from.
+- Experiment with deploying with [Netlify](https://www.netlify.com/) before I create my portfolio with [Eleventy](https://www.11ty.dev/) and deploy there
 - Experiment with content focused design that is accessible, sustainability conscious and privacy friendly.
 - Get something out the door without having to perfect my portfolio site (where I want to tweak my chatbot, connected it to ChatGPT, figure out the best way to present images, clean up asset naming, etc.)
 
@@ -13,7 +13,7 @@ An evergreen résumé in html & css.
 
 - [ ] Responsive
 - [ ] Built with vanilla html & css
-- [ ] Measure site size.  Check out [Ecograder](https://ecograder.com/) or add the [Website Carbon Calculator](https://www.websitecarbon.com/) badge!
+- [ ] Measure site size.  Check out [ecograder](https://ecograder.com/) or add the [Website Carbon Calculator](https://www.websitecarbon.com/) badge!
 - [ ] Privacy-friendly analytics by [Plausible](https://plausible.io/)
 - [ ] Title should float.  Understated, but adding a little motion to an otherwise static site. Inspiration from [Xavier](https://codepen.io/xavier_ho/pen/GRWZKpq).
 - [ ] See [Fonts Playground](https://github.com/jas0nmjames/fonts-playground): [Bungee](https://djr.com/bungee)
@@ -26,8 +26,44 @@ An evergreen résumé in html & css.
 - Smashing Magazine: [The Guide To CSS Animation: Principles and Examples](https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/)
 - Wikipedia: [12 Basic Principles of Animation](https://en.m.wikipedia.org/wiki/Twelve_basic_principles_of_animation)
 
+## Credits
+
+### Typography
+
+#### Google Fonts
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+```
+
+```css
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Space Mono', monospace;
+```
+
+### Assets
+
+1. Icon: file-lines by [Font Awesome](https://fontawesome.com/)
+
+```html
+<i class="fa-solid fa-file-lines"></i>
+```
+
 ## Journal
 
+- 2023-03-15 - Updated readme.  
+- Various sketching in Apple Notes with Apple Pencil
+- Various ideation in Apple Freeform
+- Various wireframing and planning in Figma & Figjam.
 - 2023-01-10 - Played with [Spring Animations](https://www.figma.com/community/file/1100581821937139565) in Figma
 - 2023-01-10 - Created this readme.
 - 2023-01-10 - Created this repository.
