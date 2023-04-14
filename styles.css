@@ -4,11 +4,11 @@ h1 {
   font-family: 'Bungee Shade', cursive;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
   font-family: 'Bungee', cursive;
 }
 
-p, li, summary {
+h3, h4, h5, h6, p, li, summary {
   font-family: 'Lexend', Helvetica, Arial, sans-serif;
 }
 
