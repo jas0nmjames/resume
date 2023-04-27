@@ -50,7 +50,9 @@ font-family: 'Lexend', sans-serif;
 font-family: 'Space Mono', monospace;
 ```
 
-### Assets
+### Icons
+
+#### Font Awesome
 
 1. Icon: file-lines by [Font Awesome](https://fontawesome.com/)
 
@@ -58,8 +60,26 @@ font-family: 'Space Mono', monospace;
 <i class="fa-solid fa-file-lines"></i>
 ```
 
+#### Logo Icons
+
+- https://www.voiceflow.com/
+- https://ia.net/presskits
+- https://www.mindnode.com/press
+- https://github.com/logos
+- https://git-scm.com/downloads/logos
+- https://freebiesupply.com/logos/css3-logo/ (unofficial)  See https://www.w3.org/Style/CSS/Overview.en.html
+- https://www.w3.org/html/logo/
+- https://commons.wikimedia.org/wiki/File:Google_Chrome_icon_%28February_2022%29.svg see https://about.google/brand-resource-center/logos-list/
+- https://mozilla.design/
+- https://www.sketch.com/about-us/
+- https://www.figma.com/using-the-figma-brand/
+- https://www.justinmind.com/presskit
+- https://code.visualstudio.com/brand
+
 ## Journal
 
+- 2023-03-16 - Updated DNS.  Moved management of domain from Wordpress to GoDaddy.  Domain still tied to Wordpress site.  Added subdomain in GoDaddy and linked to Netlify
+- 2023-03-15 - Deployed on Netlify
 - 2023-03-15 - Updated readme.  
 - Various sketching in Apple Notes with Apple Pencil
 - Various ideation in Apple Freeform
