@@ -25,6 +25,15 @@ An evergreen résumé in html & css.
 - CSS Tricks' CSS Almanac: [animation](https://css-tricks.com/almanac/properties/a/animation/)
 - Smashing Magazine: [The Guide To CSS Animation: Principles and Examples](https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/)
 - Wikipedia: [12 Basic Principles of Animation](https://en.m.wikipedia.org/wiki/Twelve_basic_principles_of_animation)
+- [Eleventy](https://www.11ty.dev/)
+
+### Fonts & Typography
+
+- https://piccalil.li/tutorial/fluid-typography-with-css-clamp/
+- https://systemfontstack.com/ via piccalil.li
+- https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
+- https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 
 ## Credits
 
