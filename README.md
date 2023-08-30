@@ -36,6 +36,7 @@ An evergreen résumé in html & css.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 - https://web.library.yale.edu/cataloging/months
 
+
 ## Credits
 
 ### Typography
