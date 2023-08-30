@@ -1,21 +1,120 @@
+/* Colors */
+
+:root {
+  --light-background-color: #FFF;
+  --light-primary-color: #000;
+  --light-secondary-color: #107091;
+  --light-secondary-color-darker: #114B5F;
+  --light-accent-color: #F4D06F;
+}
+
 /* Typography */
 
+a {
+  color: var(--light-primary-color);
+}
+
+a:visited {
+  text-decoration: underline line-through 10%;
+}
+
+
 h1 {
+  /* placeholder for bungee layers */
   font-family: 'Bungee Shade', cursive;
+  font-size: 2.5rem;
+  /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
+  overflow-wrap: break-word;
 }
 
 h2 {
   font-family: 'Bungee', cursive;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-h3, h4, h5, h6, p, li, summary {
+h3 {
   font-family: 'Lexend', Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-details > p {
-  font-family: 'Inter', sans-serif, 'Georgia', serif;
+h4 {
+  font-family: 'Lexend', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-footer > p {
-  font-family: 'Inter', sans-serif, 'Georgia', serif;
+.billboard > p {
+   /* placeholder for bungee layers */
+  font-family: 'Bungee Shade', cursive;
+  font-size: 0.75rem;
+}
+
+p, li {
+  font-family: 'Lexend', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+p > strong {
+  /* need to also add bold tag here */
+  font-weight: 500;
+}
+
+#introduction > p {
+  font-size: 1.25rem;
+}
+
+ul {
+  padding-left: 1.75rem;
+}
+
+ul#contact {
+  padding-left: 0rem;
+}
+
+#contact > li {
+  list-style-type: none;
+}
+
+.bungee {
+  font-family: 'Bungee', cursive;
+  font-style: normal;
+  line-height: normal;
+}
+
+/* Layout */
+
+body {
+  /*
+  display: grid;
+  grid-template-columns: minmax(6rem, 1fr) minmax(45rem, 2fr) minmax(0rem, 1fr);
+  */
+  margin: 1em;
+}
+
+header {
+  /* background: var(--light-secondary-color); */
+}
+
+main {
+}
+
+article {
+}
+
+.position-data {
+}
+
+footer {
+
 }

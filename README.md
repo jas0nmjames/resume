@@ -34,6 +34,8 @@ An evergreen résumé in html & css.
 - https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
 - https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+- https://web.library.yale.edu/cataloging/months
+
 
 ## Credits
 
