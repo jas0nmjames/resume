@@ -10,6 +10,38 @@
 
 /* Typography */
 
+@font-face { /* See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+  font-family: "Bungee Layers Inline";
+  src:
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff2") format("woff2"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff") format("woff"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Inline.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "Bungee Layers Regular";
+  src:
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Regular.woff2") format("woff2"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Regular.woff") format("woff"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Regular.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "Bungee Layers Outline";
+  src:
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Outline.woff2") format("woff2"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Outline.woff") format("woff"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Outline.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "Bungee Layers Shade";
+  src:
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Shade.woff2") format("woff2"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Shade.woff") format("woff"),
+    url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Shade.eot") format("embedded-opentype");
+}
+
 a {
   color: var(--light-primary-color);
 }
@@ -18,13 +50,53 @@ a:visited {
   text-decoration: underline line-through 10%;
 }
 
-
 h1 {
-  /* placeholder for bungee layers */
-  font-family: 'Bungee Shade', cursive;
-  font-size: 2.5rem;
-  /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
-  overflow-wrap: break-word;
+  font-size: 2.5rem; /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
+  /* overflow-wrap: break-word; */
+}
+
+.bungee {
+  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
+}
+
+.bungee-inline {
+  z-index: 1;
+  grid-row: 2;
+  grid-column: 1;
+  font-family: 'Bungee Layers Inline','Bungee Hairline', cursive;
+  font-weight: 400; /* see https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  color: var(--light-secondary-color-darker);
+  margin: 0rem;
+}
+
+.bungee-regular {
+  z-index: 0;
+  grid-row: 2;
+  grid-column: 1;
+  font-family: 'Bungee Layers Regular','Bungee', cursive;
+  font-weight: 400;
+  color: var(--light-accent-color);
+  margin: 0rem;
+}
+
+.bungee-outline {
+  z-index: -1;
+  grid-row: 2;
+  grid-column: 1;
+  font-family: 'Bungee Layers Outline', 'Bungee Outline', cursive;
+  font-weight: 400;
+  color: var(--light-secondary-color);
+  margin: 0rem;
+}
+
+.bungee-shade {
+  z-index: -2;
+  grid-row: 2;
+  grid-column: 1;
+  font-family: 'Bungee Layers Shade', 'Bungee Shade', cursive;
+  font-weight: 400;
+  color: var(--light-secondary-color-darker);
+  margin: 0rem;
 }
 
 h2 {
@@ -51,12 +123,6 @@ h4 {
   line-height: normal;
 }
 
-.billboard > p {
-   /* placeholder for bungee layers */
-  font-family: 'Bungee Shade', cursive;
-  font-size: 0.75rem;
-}
-
 p, li {
   font-family: 'Lexend', Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -72,6 +138,20 @@ p > strong {
 
 #introduction > p {
   font-size: 1.25rem;
+}
+
+#subtitle-before {
+  grid-row: 1;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 0.75rem;
+  margin: 0rem;
+}
+
+#subtitle-after {
+  grid-row: 3;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 0.75rem;
+  margin: 0rem;
 }
 
 ul {
@@ -116,5 +196,5 @@ article {
 }
 
 footer {
-
+  display: flex;
 }
