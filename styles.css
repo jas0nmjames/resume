@@ -8,9 +8,40 @@
   --light-accent-color: #F4D06F;
 }
 
+/* Layout */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 2.5rem;
+  margin: 0rem;
+}
+
+header {
+  background-color: var(--light-secondary-color);
+}
+
+header > .bungee {
+  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
+  margin: 2.5rem;
+}
+
+main {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22.5rem, 1fr));
+  grid-gap: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 /* Typography */
 
-@font-face { /* See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+@font-face { /* See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face and https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts */
   font-family: "Bungee Layers Inline";
   src:
     url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff2") format("woff2"),
@@ -53,10 +84,6 @@ a:visited {
 h1 {
   font-size: 2.5rem; /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
   /* overflow-wrap: break-word; */
-}
-
-.bungee {
-  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
 }
 
 .bungee-inline {
@@ -138,6 +165,7 @@ p > strong {
 
 #introduction > p {
   font-size: 1.25rem;
+  margin-top: 0rem;
 }
 
 #subtitle-before {
@@ -166,35 +194,10 @@ ul#contact {
   list-style-type: none;
 }
 
-.bungee {
-  font-family: 'Bungee', cursive;
-  font-style: normal;
-  line-height: normal;
+#contact > * {
+  margin-top: 0rem;
 }
 
-/* Layout */
-
-body {
-  /*
-  display: grid;
-  grid-template-columns: minmax(6rem, 1fr) minmax(45rem, 2fr) minmax(0rem, 1fr);
-  */
-  margin: 1em;
-}
-
-header {
-  /* background: var(--light-secondary-color); */
-}
-
-main {
-}
-
-article {
-}
-
-.position-data {
-}
-
-footer {
-  display: flex;
+#attributions > h3 {
+  margin-top: 0rem;
 }
