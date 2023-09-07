@@ -26,6 +26,11 @@ An evergreen résumé in html & css.
 - Smashing Magazine: [The Guide To CSS Animation: Principles and Examples](https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/)
 - Wikipedia: [12 Basic Principles of Animation](https://en.m.wikipedia.org/wiki/Twelve_basic_principles_of_animation)
 - [Eleventy](https://www.11ty.dev/)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Look Ma, No Media Queries! Responsive Layouts Using CSS Grid](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/)
+- [Auto-Sizing Columns in CSS Grid: `auto-fill` vs `auto-fit`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+- [An Introduction to the `fr` CSS unit ](https://css-tricks.com/introduction-fr-css-unit/)
+- Thank you Kris Koishigawa for the security best practices when opening links in a new tab.  See <a href="https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/" target="_blank" rel="noopener noreferrer">How to Use HTML to Open a Link in a New Tab</a> (Published September 8, 2020.  Accessed August 29, 2023.)
 
 ### Fonts & Typography
 
@@ -89,6 +94,9 @@ font-family: 'Space Mono', monospace;
 
 ## Journal
 
+- 2023-09 - Created responsive layout and finished styling in CSS
+- 2023-08 - Created content and foundational styling in HTML & CSS
+- 2023-08 - Finished design in Figma.  Mobile, Tablet & Desktop
 - 2023-03-16 - Updated DNS.  Moved management of domain from Wordpress to GoDaddy.  Domain still tied to Wordpress site.  Added subdomain in GoDaddy and linked to Netlify
 - 2023-03-15 - Deployed on Netlify
 - 2023-03-15 - Updated readme.  
