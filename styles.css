@@ -41,18 +41,20 @@
 body {
   background-color: var(--light-background-color);
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 2.5rem;
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(26.25rem, 1fr));
+  /* grid-gap: 2.5rem; */
   margin: 0rem;
+  /* max-width: 90rem; */
 }
 
 header {
   background-color: var(--light-secondary-color);
 }
 
-header > .bungee {
-  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
-  margin: 2.5rem;
+.wrapper {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 main {
@@ -74,7 +76,7 @@ footer {
   background-color: var(--light-secondary-color);
   color: var(--light-background-color);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(11.25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(11.25rem, 1fr));
   grid-gap: 2.5rem;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -108,12 +110,19 @@ footer * a {
   font-weight: 400;
 }
 
+header > .bungee {
+  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
+  margin: 2.5rem;
+  /* grid-template-columns: 1fr; */
+}
+ kjm ,
 .bungee-inline {
   z-index: 4;
   grid-row: 2;
   grid-column: 1;
   font-family: 'Bungee Layers Inline','Bungee Hairline', cursive;
   font-weight: 400; /* see https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color-darker);
   margin: 0rem;
 }
@@ -124,6 +133,7 @@ footer * a {
   grid-column: 1;
   font-family: 'Bungee Layers Regular','Bungee', cursive;
   font-weight: 400;
+  /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-accent-color);
   margin: 0rem;
 }
@@ -134,6 +144,7 @@ footer * a {
   grid-column: 1;
   font-family: 'Bungee Layers Outline', 'Bungee Outline', cursive;
   font-weight: 400;
+  /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color);
   margin: 0rem;
 }
@@ -144,13 +155,15 @@ footer * a {
   grid-column: 1;
   font-family: 'Bungee Layers Shade', 'Bungee Shade', cursive;
   font-weight: 400;
+  /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color-darker);
   margin: 0rem;
 }
 
 h1 {
   font-size: 2.5rem; /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
-  /* overflow-wrap: break-word; */
+  overflow-wrap: break-word;
+  /* font-size: clamp(2.5rem, 4.75rem, 7rem); */ /* doesn't work */
 }
 
 h2 {
