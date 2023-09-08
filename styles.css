@@ -251,3 +251,31 @@ ul#contact {
 #contact > * {
   margin-top: 0rem;
 }
+
+/* Customizing Website Carbon Badge CSS */
+
+#wcb_p {
+  text-align: start !important;
+}
+
+#wcb_g {
+  border-color: var(--light-accent-color) !important;
+  color: var(--light-secondary-color-darker) !important;
+  font-family: 'Lexend', Helvetica, Arial, sans-serif !important;
+  font-size: 1rem !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: normal !important;
+}
+
+#wcb_a {
+  border-color: var(--light-secondary-color) !important;
+  background-color: var(--light-secondary-color) !important;
+  font-family: 'Lexend', Helvetica, Arial, sans-serif !important;
+  font-size: 1rem !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+/* Website Carbon Badge Custom CSS ends */
