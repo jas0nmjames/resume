@@ -1,8 +1,10 @@
 :root {
   --light-background-color: #FFF;
   --light-primary-color: #000;
-  --light-secondary-color: #107091;
-  --light-secondary-color-darker: #114B5F;
+  /* --light-secondary-color: #107091; */
+  --light-secondary-color: #036384;
+  /* --light-secondary-color-darker: #114B5F; */
+  --light-secondary-color-darker: #00202c;
   --light-accent-color: #F4D06F;
 }
 
