@@ -2,6 +2,10 @@
 
 An evergreen résumé in html & css.
 
+## Current Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93e8e12d-7866-4071-9a7f-5560b4e0ecd3/deploy-status)](https://app.netlify.com/sites/jas0nmjames-resume/deploys)
+
 ## Rationale
 
 - Have a separate repository for just my resume which I can link to regardless of the state of my portfolio or where it's deployed from.
