@@ -42,7 +42,7 @@ body {
   background-color: var(--light-background-color);
   display: grid;
   /* grid-template-columns: 1fr 2fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(26.25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   /* grid-gap: 2.5rem; */
   margin: 0rem;
   /* max-width: 90rem; */
@@ -52,7 +52,7 @@ header {
   background-color: var(--light-secondary-color);
 }
 
-.wrapper {
+#paper {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
@@ -110,12 +110,6 @@ footer * a {
   font-weight: 400;
 }
 
-header > .bungee {
-  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
-  margin: 2.5rem;
-  /* grid-template-columns: 1fr; */
-}
- kjm ,
 .bungee-inline {
   z-index: 4;
   grid-row: 2;
@@ -158,6 +152,31 @@ header > .bungee {
   /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color-darker);
   margin: 0rem;
+}
+
+#billboard {
+  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
+  margin: 2.5rem;
+  justify-content: start;
+  /* grid-template-columns: 1fr; */
+}
+
+#subtitle-before {
+  grid-row: 1;
+  /* font-family: 'Bungee Spice', cursive; */
+  font-size: 0.75rem;
+  color: var(--light-accent-color);
+  margin: 0rem;
+  justify-self: start;
+}
+
+#subtitle-after {
+  grid-row: 3;
+  /* font-family: 'Bungee Spice', cursive; */
+  font-size: 0.75rem;
+  color: var(--light-accent-color);
+  margin: 0rem;
+  justify-self: end;
 }
 
 h1 {
@@ -210,20 +229,6 @@ p > strong {
 #introduction > p {
   font-size: 1.25rem;
   margin-top: 0rem;
-}
-
-#subtitle-before {
-  grid-row: 1;
-  font-family: 'Bungee Spice', cursive;
-  font-size: 0.75rem;
-  margin: 0rem;
-}
-
-#subtitle-after {
-  grid-row: 3;
-  font-family: 'Bungee Spice', cursive;
-  font-size: 0.75rem;
-  margin: 0rem;
 }
 
 .position-data > p {
