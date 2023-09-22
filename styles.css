@@ -52,6 +52,16 @@ header {
   background-color: var(--light-secondary-color);
 }
 
+#resume-download {
+  color: var(--light-background-color);
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+#resume-download > a {
+  color: var(--light-background-color);
+}
+
 #paper {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
