@@ -13,6 +13,7 @@ An evergreen résumé in html & css.
 - Experiment with content focused design that is accessible, sustainability conscious and privacy friendly.
 - Get something out the door without having to perfect my portfolio site (where I want to tweak my chatbot, connected it to ChatGPT, figure out the best way to present images, clean up asset naming, etc.)
 
+
 ## Goals
 
 - [ ] Responsive
@@ -21,6 +22,30 @@ An evergreen résumé in html & css.
 - [ ] Privacy-friendly analytics by [Plausible](https://plausible.io/)
 - [ ] Title should float.  Understated, but adding a little motion to an otherwise static site. Inspiration from [Xavier](https://codepen.io/xavier_ho/pen/GRWZKpq).
 - [ ] See [Fonts Playground](https://github.com/jas0nmjames/fonts-playground): [Bungee](https://djr.com/bungee)
+
+## Progress Journal
+
+- 2023-09-21 - H1 "billboard" multi-layer type is in a good place
+- 2023-09-11 - Added the Website Carbon Calculator & a link to download the PDF version
+- 2023-09 - Created responsive layout and finished styling in CSS
+- 2023-08 - Created content and foundational styling in HTML & CSS
+- 2023-08 - Finished design in Figma.  Mobile, Tablet & Desktop
+- 2023-03-16 - Updated DNS.  Moved management of domain from Wordpress to GoDaddy.  Domain still tied to Wordpress site.  Added subdomain in GoDaddy and linked to Netlify
+- 2023-03-15 - Deployed on Netlify
+- 2023-03-15 - Updated readme.  
+- Various sketching in Apple Notes with Apple Pencil
+- Various ideation in Apple Freeform
+- Various wireframing and planning in Figma & Figjam.
+- 2023-01-10 - Played with [Spring Animations](https://www.figma.com/community/file/1100581821937139565) in Figma
+- 2023-01-10 - Created this readme.
+- 2023-01-10 - Created this repository.
+
+## What I Learned
+
+- Creating responsive layouts with HTML & CSS in 2023 with modern approaches.  **CSS Grid > Media Queries**
+- How to create multi-color and/or multi-layer type with HTML & CSS.
+
+---
 
 ## Resources
 
@@ -35,6 +60,8 @@ An evergreen résumé in html & css.
 - [Auto-Sizing Columns in CSS Grid: `auto-fill` vs `auto-fit`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 - [An Introduction to the `fr` CSS unit ](https://css-tricks.com/introduction-fr-css-unit/)
 - Thank you Kris Koishigawa for the security best practices when opening links in a new tab.  See <a href="https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/" target="_blank" rel="noopener noreferrer">How to Use HTML to Open a Link in a New Tab</a> (Published September 8, 2020.  Accessed August 29, 2023.)
+- [Flexible layouts without media queries](https://blog.logrocket.com/flexible-layouts-without-media-queries/) - Dannie Vinther (April 16, 2020)
+- [Fluid typography with CSS clamp](https://piccalil.li/tutorial/fluid-typography-with-css-clamp/)
 
 ### Fonts & Typography
 
@@ -44,7 +71,6 @@ An evergreen résumé in html & css.
 - https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 - https://web.library.yale.edu/cataloging/months
-
 
 ## Credits
 
@@ -95,18 +121,3 @@ font-family: 'Space Mono', monospace;
 - https://www.figma.com/using-the-figma-brand/
 - https://www.justinmind.com/presskit
 - https://code.visualstudio.com/brand
-
-## Journal
-
-- 2023-09 - Created responsive layout and finished styling in CSS
-- 2023-08 - Created content and foundational styling in HTML & CSS
-- 2023-08 - Finished design in Figma.  Mobile, Tablet & Desktop
-- 2023-03-16 - Updated DNS.  Moved management of domain from Wordpress to GoDaddy.  Domain still tied to Wordpress site.  Added subdomain in GoDaddy and linked to Netlify
-- 2023-03-15 - Deployed on Netlify
-- 2023-03-15 - Updated readme.  
-- Various sketching in Apple Notes with Apple Pencil
-- Various ideation in Apple Freeform
-- Various wireframing and planning in Figma & Figjam.
-- 2023-01-10 - Played with [Spring Animations](https://www.figma.com/community/file/1100581821937139565) in Figma
-- 2023-01-10 - Created this readme.
-- 2023-01-10 - Created this repository.

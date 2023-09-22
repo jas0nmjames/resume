@@ -105,78 +105,71 @@ footer * a {
   color: var(--light-background-color);
 }
 
-.bungee {
-  font-family: 'Bungee Layers Regular','Bungee', cursive;
-  font-weight: 400;
+/* h1 billboard */
+
+#billboard {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2.5rem;
+  margin-top: 1.75rem;
+}
+
+#billboard > * > * {
+  font-size: 4.5rem;
+  /* font-size: clamp(2.5rem, 5rem, 10rem); */
+  display: inline-block;
+}
+
+.multilayer {
+  margin: 0rem;
+  display: grid;
+}
+
+#current-url > * {
+  font-size: 2rem;
+  align-self: end;
+  margin-left: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .bungee-inline {
   z-index: 4;
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 1;
   font-family: 'Bungee Layers Inline','Bungee Hairline', cursive;
   font-weight: 400; /* see https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color-darker);
-  margin: 0rem;
 }
 
 .bungee-regular {
   z-index: 3;
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 1;
   font-family: 'Bungee Layers Regular','Bungee', cursive;
   font-weight: 400;
   /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-accent-color);
-  margin: 0rem;
 }
 
 .bungee-outline {
   z-index: 2;
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 1;
   font-family: 'Bungee Layers Outline', 'Bungee Outline', cursive;
   font-weight: 400;
   /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color);
-  margin: 0rem;
 }
 
 .bungee-shade {
   z-index: 1;
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 1;
   font-family: 'Bungee Layers Shade', 'Bungee Shade', cursive;
   font-weight: 400;
   /*font-size: clamp(2.5rem, 4.75rem, 7rem);*/   
   color: var(--light-secondary-color-darker);
-  margin: 0rem;
-}
-
-#billboard {
-  display: grid; /* Thank you stack overflow (https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei) */
-  margin: 2.5rem;
-  justify-content: start;
-  /* grid-template-columns: 1fr; */
-}
-
-#subtitle-before {
-  grid-row: 1;
-  /* font-family: 'Bungee Spice', cursive; */
-  font-size: 0.75rem;
-  color: var(--light-accent-color);
-  margin: 0rem;
-  justify-self: start;
-}
-
-#subtitle-after {
-  grid-row: 3;
-  /* font-family: 'Bungee Spice', cursive; */
-  font-size: 0.75rem;
-  color: var(--light-accent-color);
-  margin: 0rem;
-  justify-self: end;
 }
 
 h1 {
@@ -254,6 +247,7 @@ ul#contact {
 
 /* Customizing Website Carbon Badge CSS */
 
+/*
 #wcb_p {
   text-align: start !important;
 }
@@ -277,5 +271,6 @@ ul#contact {
   font-weight: 500 !important;
   line-height: normal !important;
 }
+*/
 
 /* Website Carbon Badge Custom CSS ends */
