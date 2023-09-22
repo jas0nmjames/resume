@@ -282,8 +282,10 @@
         </section>
       </footer>
       <!-- Begin Website Carbon Caclulator -->
+      <!--
       <div id="wcb" class="carbonbadge"></div>
       <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+      -->
       <!-- End Website Carbon Calculator -->
     </div>
     <aside>
@@ -311,5 +313,19 @@
         </section>
       -->
     </aside>
+    <!-- Inserting Voiceflow Bot -->
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '650d1f3cf9c7b600075cbd23' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
   </body>
 </html>
