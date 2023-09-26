@@ -6,6 +6,10 @@
   --light-accent-color: #F4D06F;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face { /* See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face and https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts */
   font-family: "Bungee Layers Inline";
   src:
@@ -52,16 +56,6 @@ body {
 
 header {
   background-color: var(--light-secondary-color);
-}
-
-#resume-download {
-  color: var(--light-background-color);
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-#resume-download > a {
-  color: var(--light-background-color);
 }
 
 #paper {
@@ -261,6 +255,31 @@ ul#contact {
 #contact > * {
   margin-top: 0rem;
 }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+nav > p {
+  font-family: 'Bungee', cursive;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--light-background-color);
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 0rem;
+  margin-top: 0rem;
+}
+
+nav > p > a {
+  color: var(--light-background-color);
+}
+
 
 /* Customizing Website Carbon Badge CSS */
 
