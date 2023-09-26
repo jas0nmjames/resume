@@ -259,11 +259,13 @@ ul#contact {
 nav {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  justify-content: start;
+  gap: 0.5em;
   margin-bottom: 2.5rem;
+  
 }
 
-nav > p {
+nav > span {
   font-family: 'Bungee', cursive;
   font-size: 1rem;
   font-style: normal;
@@ -276,7 +278,7 @@ nav > p {
   margin-top: 0rem;
 }
 
-nav > p > a {
+nav > span > a {
   color: var(--light-background-color);
 }
 
