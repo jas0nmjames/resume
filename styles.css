@@ -38,6 +38,8 @@
     url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Shade.eot") format("embedded-opentype");
 }
 
+/* Thank you https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/ */
+
 body {
   background-color: var(--light-background-color);
   display: grid;
@@ -117,11 +119,16 @@ footer * a {
 
 /* h1 billboard */
 
+#billboard-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem;
+  margin-top: 1.75rem;
+}
+
 #billboard {
   display: flex;
   flex-wrap: wrap;
-  margin: 2.5rem;
-  margin-top: 1.75rem;
 }
 
 #billboard > * > * {
@@ -136,7 +143,7 @@ footer * a {
 }
 
 #current-url > * {
-  font-size: 2rem;
+  font-size: 1.75rem;
   align-self: end;
   margin-left: 0.5rem;
   padding-bottom: 0.5rem;
