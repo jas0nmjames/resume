@@ -6,6 +6,10 @@
   --light-accent-color: #F4D06F;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face { /* See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face and https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts */
   font-family: "Bungee Layers Inline";
   src:
@@ -38,27 +42,46 @@
     url("assets/fonts/bungee/Bungee_Web/BungeeLayers/BungeeLayers-Shade.eot") format("embedded-opentype");
 }
 
+@font-face {
+  font-family: "Lexend";
+  src: 
+    url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"),
+    url("assets/fonts/lexend/Lexend/Lexend-VariableFont_wght.ttf") format("ttf");
+}
+
+/* Thank you https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/ */
+
 body {
   background-color: var(--light-background-color);
   display: grid;
-  /* grid-template-columns: 1fr 2fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  /* grid-gap: 2.5rem; */
   margin: 0rem;
-  /* max-width: 90rem; */
 }
 
 header {
   background-color: var(--light-secondary-color);
 }
 
-#resume-download {
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+nav > span {
+  font-family: 'Lexend', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
   color: var(--light-background-color);
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
 }
 
-#resume-download > a {
+nav > span > a {
   color: var(--light-background-color);
 }
 
@@ -115,13 +138,16 @@ footer * a {
   color: var(--light-background-color);
 }
 
-/* h1 billboard */
+#billboard-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem;
+  margin-top: 1.75rem;
+}
 
 #billboard {
   display: flex;
   flex-wrap: wrap;
-  margin: 2.5rem;
-  margin-top: 1.75rem;
 }
 
 #billboard > * > * {
@@ -136,10 +162,10 @@ footer * a {
 }
 
 #current-url > * {
-  font-size: 2rem;
+  display: inline-block;
+  font-size: 1.75rem;
   align-self: end;
-  margin-left: 0.5rem;
-  padding-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 .bungee-inline {
@@ -225,7 +251,10 @@ p, li {
 }
 
 p > strong {
-  /* need to also add bold tag here */
+  font-weight: 500;
+}
+
+p > b {
   font-weight: 500;
 }
 
