@@ -19,7 +19,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="assets/font-awesome/file-lines-solid.svg" />
+      href="assets/fonts/font-awesome/file-lines-solid.svg" />
     <!-- Beginning of Links to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,12 +32,6 @@
   <body>
     <header>
       <div id="billboard-container">
-        <span class="multilayer" id="current-url">
-          <span class="bungee-inline">https://résumé.</span>
-          <span class="bungee-regular">https://résumé.</span>
-          <span class="bungee-outline">https://résumé.</span>
-          <span class="bungee-shade">https://résumé.</span>
-        </span>
         <span id="billboard" title="jasonmjam.es">
           <span class="multilayer">
             <span class="bungee-inline">j</span>
@@ -112,20 +106,26 @@
             <span class="bungee-shade">s</span>
           </span>
         </span>
+        <span class="multilayer" id="current-url">
+          <span class="bungee-inline">/résumé</span>
+          <span class="bungee-regular">/résumé</span>
+          <span class="bungee-outline">/résumé</span>
+          <span class="bungee-shade">/résumé</span>
+        </span>
       </div>
       <nav>
-        <span id="resume-download"><span class="fa-solid fa-file-arrow-down"></span><noscript>📧</noscript> <a href="assets/resume_jason-james_2023-08-11.pdf" target="_blank" rel="noopener noreferrer">Download PDF Résumé</a></span>
-        <span><a href="#experience">Experience</a></span>
-        <span><a href="#education">Education</a></span>
-        <span><a href="#volunteering">Volunteering</a></span>
-        <span><a href="#talks">Talks</a></span>
-        <span><a href="#about-and-contact">About & Contact</a></span>
+        <span id="resume-download"><a href="assets/resume_jason-james_2023-08-11.pdf" target="_blank" rel="noopener noreferrer">Download PDF Résumé</a> <span class="fa-solid fa-file-arrow-down"></span><noscript>📧</noscript></span>
+        <!-- <span><a href="#experience">Experience</a></span> -->
+        <!-- <span><a href="#education">Education</a></span> -->
+        <!-- <span><a href="#volunteering">Volunteering</a></span> -->
+        <!-- <span><a href="#talks">Talks</a></span> -->
+        <span><a href="#about-and-contact">About &amp; Contact</a></span>
       </nav>
     </header>
     <div class="wrapper" id="paper">
       <main>
         <section id="introduction">
-          <p><a href="https://jasonmjam.es/" target="_blank" rel="noopener noreferrer"><strong>Jason James</strong></a> <span contenteditable="true" title="Try editing me!">is a human-centered and systems-oriented designer of conversations (CxD), user experiences (UX) and services (SD).</span></p>
+          <p><a href="https://jasonmjam.es/" target="_blank" rel="noopener noreferrer"><strong>Jason James</strong></a> <span contenteditable="true" title="Try editing me!">is a user experience (UX) and conversational AI (CxD) designer.</span></p>
         </section>
         <section id="experience">
           <h2>Experience</h2>
@@ -136,7 +136,8 @@
               <p><time datetime="2023-04"><abbr title="April">Apr</abbr> &apos;23</time> &ndash; Present<br>Miami, FL (Hybrid)</p>
             </hgroup>
             <ul>
-              <li>Leading conversation design and advocating for the best possible experience for our 2 million US banking customers.</li>
+              <li>Lead UX Designer for future-state national retail online banking product.  Leading team of three designers to support 8 verticals and 30+ product managers and owners in the US localize a tech and product stack created for the EU.</li>
+              <li>Leading conversation design in the US of Sandi, the Santander Bank Virtual Assistant</li>
             </ul>
           </article>
           <article>
@@ -266,8 +267,8 @@
             <h3>Machines are Writing Now: Conversation Design in the Age of GPT-4</h3>
             <p>After providing a foundational context of conversation design, I discussed Large Language Models and explored the changing landscape through interactive walk-throughs of tools like Watson Assistant, ChatGPT, Midjourney and Voiceflow.</p>
             <ul>
-              <li><a href="https://www.eventbrite.com/e/machines-are-writing-now-conversational-experiences-in-the-age-of-gpt-tickets-627360501147" target="_blank" rel="noopener noreferrer">UXPA Boston, July 20, 2023</a> (Recording availalable on <a href="https://www.youtube.com/watch?v=lXevGcRracY" target="_blank" rel="noopener noreferrer">YouTube</a>)</li>
-              <li>SDN Portugal: <i><a href="https://www.eventbrite.pt/e/service-design-doing-good-on-the-ai-age-tickets-644980553197" target="_blank" rel="noopener noreferrer">Service Design doing good on the AI age</a></i>, June 28, 2023</li>
+              <li><a href="https://www.eventbrite.com/e/machines-are-writing-now-conversational-experiences-in-the-age-of-gpt-tickets-627360501147" target="_blank" rel="noopener noreferrer">UXPA Boston, July 20, 2023</a> (Recording available on <a href="https://www.youtube.com/watch?v=lXevGcRracY" target="_blank" rel="noopener noreferrer">YouTube</a>)</li>
+              <li>SDN Portugal: <i><a href="https://www.eventbrite.pt/e/service-design-doing-good-on-the-ai-age-tickets-644980553197" target="_blank" rel="noopener noreferrer">"Service Design doing good on the AI age"</a></i>, June 28, 2023</li>
               <li>Santander Bank Global Design Community, May 24, 2023 (Private)</li>
               <li>Santander Bank, N.A., Marketing Organization Lunch & Learn, April 25, 2023 (Private)</li>
             </ul>
@@ -279,6 +280,7 @@
           <h3>About &amp; Contact</h3>
           <p>&#128075; Hi there! I designed this résumé in Figma and wrote the vanilla html &amp; css.  This site is deployed with Netlify from a Github <a href="https://github.com/jas0nmjames/resume">repository</a>.</p>
           <ul id="contact">
+            <!-- Need fallback for the font awesome icons below when there's no connectivity with font awesome -->
             <li><span class="fa-brands fa-linkedin-in"></span><noscript>🤝🏾</noscript> <a href="https://www.linkedin.com/in/jas0nmjames/">/in/jas0nmjames</a></li>
             <li><span class="fa-solid fa-at"></span><noscript>📧</noscript> <a href="mailto:jason@jasonmjam.es">jason@jasonmjam.es</a></li>
             <li><span class="fa-solid fa-mobile-retro"></span><noscript>📞</noscript> <a href="tel:+17036748868">(703) 674-8868</a></li>
@@ -291,13 +293,16 @@
           <p>Icons by <a href="https://fontawesome.com/">Font Awesome</a>  <span class="fa-solid fa-font-awesome"></span></p>
         </section>
       </footer>
+
       <!-- Begin Website Carbon Caclulator -->
       <!--
       <div id="wcb" class="carbonbadge"></div>
       <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
       -->
       <!-- End Website Carbon Calculator -->
+
     </div>
+    
     <!--
     <aside>
         <details>
@@ -323,6 +328,7 @@
         </section>
     </aside>
     -->
+
     <!-- Inserting Voiceflow Bot -->
     <script type="text/javascript">
       (function(d, t) {
