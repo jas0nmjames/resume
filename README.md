@@ -13,18 +13,21 @@ An evergreen résumé in html & css.
 - Experiment with content focused design that is accessible, sustainability conscious and privacy friendly.
 - Get something out the door without having to perfect my portfolio site (where I want to tweak my chatbot, connected it to ChatGPT, figure out the best way to present images, clean up asset naming, etc.)
 
-
 ## Goals
 
-- [ ] Responsive
-- [ ] Built with vanilla html & css
+- [x] Responsive *(without media queries!!)*
+- [x] Built with vanilla html & css
 - [ ] Measure site size.  Check out [ecograder](https://ecograder.com/) or add the [Website Carbon Calculator](https://www.websitecarbon.com/) badge!
 - [ ] Privacy-friendly analytics by [Plausible](https://plausible.io/)
 - [ ] Title should float.  Understated, but adding a little motion to an otherwise static site. Inspiration from [Xavier](https://codepen.io/xavier_ho/pen/GRWZKpq).
-- [ ] See [Fonts Playground](https://github.com/jas0nmjames/fonts-playground): [Bungee](https://djr.com/bungee)
+- [x] Multi-layer typography: [Bungee](https://djr.com/bungee) (See [Fonts Playground](https://github.com/jas0nmjames/fonts-playground))
+- [ ] [Voiceflow](https://www.voiceflow.com/): basic chatbot built with knowledgebase of own resume and portfolio articles in markdown
+- [ ] [Voiceflow](https://www.voiceflow.com/): site visitors can add a link to a job description and the bot will respond with how I am or am not aligned
+- [ ] Welcome video with [Loom](https://support.loom.com/hc/en-us)
 
 ## Progress Journal
 
+- 2024-04 - cleaned up navigation links and cleaned up inline comments in html.  added social links.  
 - 2023-09-21 - H1 "billboard" multi-layer type is in a good place
 - 2023-09-11 - Added the Website Carbon Calculator & a link to download the PDF version
 - 2023-09 - Created responsive layout and finished styling in CSS
@@ -40,12 +43,11 @@ An evergreen résumé in html & css.
 - 2023-01-10 - Created this readme.
 - 2023-01-10 - Created this repository.
 
-## What I Learned
+## What I've Learned
 
-- Creating responsive layouts with HTML & CSS in 2023 with modern approaches.  **CSS Grid > Media Queries**
-- How to create multi-color and/or multi-layer type with HTML & CSS.
-
----
+- [x] How to create responsive layouts with HTML & CSS in 2023 with modern approaches.  **CSS Grid > Media Queries**
+- [x] How to create multi-layer (and multi-color] type with HTML & CSS.
+- [x] Discovered [Lexend](https://www.lexend.com/), "A variable font empirically shown to significantly improve reading-proficiency."
 
 ## Resources
 
