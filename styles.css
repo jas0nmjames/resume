@@ -98,6 +98,10 @@ nav > span > a {
   color: var(--light-background-color);
 }
 
+#linkedin-container {
+  display: flex;
+}
+
 #paper {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -255,7 +259,7 @@ h4 {
   margin-bottom: 0.25rem;
 }
 
-p, li {
+p, li, summary {
   font-family: 'Lexend', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -326,3 +330,7 @@ ul#contact {
 */
 
 /* Website Carbon Badge Custom CSS ends */
+
+summary {
+  cursor: context-menu;
+}
