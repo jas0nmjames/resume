@@ -98,6 +98,10 @@ nav > span > a {
   color: var(--light-background-color);
 }
 
+#linkedin-container {
+  display: flex;
+}
+
 #paper {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
