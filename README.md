@@ -24,9 +24,11 @@ An evergreen résumé in html & css.
 - [ ] [Voiceflow](https://www.voiceflow.com/): basic chatbot built with knowledgebase of own resume and portfolio articles in markdown
 - [ ] [Voiceflow](https://www.voiceflow.com/): site visitors can add a link to a job description and the bot will respond with how I am or am not aligned
 - [ ] Welcome video with [Loom](https://support.loom.com/hc/en-us)
+- [ ] Create a [JSON Resume](https://jsonresume.org/)
 
 ## Progress Journal
 
+- 2025-08 - added [NowNowNow](https://nownownow.com/) page
 - 2024-04 - cleaned up navigation links and cleaned up inline comments in html.  added social links.  
 - 2023-09-21 - H1 "billboard" multi-layer type is in a good place
 - 2023-09-11 - Added the Website Carbon Calculator & a link to download the PDF version

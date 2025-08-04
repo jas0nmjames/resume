@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>now</title>
+    <style>
+        #typed-container {
+            /*
+            font-family: monospace;
+            font-size: 1rem;
+            white-space: pre-wrap;
+            line-height: 1.5;
+            position: relative;
+            */
+        }
+
+        #cursor {
+            display: inline-block;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Now</h1>
+
+    <!-- Inserting some ChatGPT assisted code here -->
+    <div id="typed-container">
+        <span id="typed-text"></span><span id="cursor">▌</span>
+    </div>
+    <!-- End ChatGPT assisted code -->
+
+    <!--
+    <p>Inspired by <a href="https://www.linkedin.com/in/FernandoJunoJo">Juno</a>'s <a href="https://juno.pro/designing-your-career-in-age-of-ai-friends-of-figma-miami/">April 2025</a> <a href="https://friends.figma.com/events/details/figma-miami-presents-designing-your-career-in-the-age-of-ai-skills-clients-and-reinvention/">talk at Friends of Figma Miami</a>, here's what I'm working on right <a href="https://nownownow.com/about">now</a>:</p>
+    -->
+    
+    <article>
+        <h2>AI Experiments</h2>
+        <p>Exploring what the banking transaction ledger could be in the age of generative interfaces (<a href="https://github.com/jas0nmjames/ia-for-banking-for-ai">IA for Banking for AI</a>), plus experimenting <a href=https://github.com/jas0nmjames/generative-experiments-public">experimenting</a> on a weekly basis.</p>
+    </article>
+    <article>
+        <h2>Baby #3</h2>
+        <p>My lovely wife and I had our third child in February 2025.  That's definately something we're working on right now.</p>
+        <footer>
+            <p>#personal</p>
+        </footer>
+    </article>
+    <article>
+        <h2>Openbank Post-launch Product Expansion</h2>
+        <p>Following the launch of <a href="https://www.santander.com/en/press-room/press-releases/2024/10/santander-launches-openbank-in-the-us-expanding-its-consumer-banking-business-nationwide">Openbank in October 2024</a> and its High Yield Savings Account, I've been supporting the bank's launch of additional new products.  Expected Outcome: Become a <a href="https://www.pymnts.com/news/digital-banking/2024/santander-says-its-us-digital-bank-will-become-full-service/">full-service digital bank in the country by the end of 2025</a> </p>
+        <footer>
+            <p>#work</p>
+        </footer>
+    </article>
+    <footer>
+        <p><a href="https://resume.jasonmjam.es/">by Jason James</a></p>
+    </footer>
+    <script>
+        const message = "Inspired by Juno's April 2025 talk at Friends of Figma Miami, here's what I'm working on right now:";
+        const textElement = document.getElementById("typed-text");
+        let index = 0;
+
+        function typeCharByChar() {
+        if (index < message.length) {
+            textElement.textContent += message[index];
+            index++;
+            setTimeout(typeCharByChar, 40); // speed of typing
+        }
+    }
+
+    typeCharByChar();
+    </script>
+</body>
+</html>
