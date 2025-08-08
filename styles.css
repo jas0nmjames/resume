@@ -1,5 +1,5 @@
 :root {
-  --light-background-color: #FFF;
+  --light-background-color: #fafdfc;
   --light-primary-color: #000;
   --light-secondary-color: #107091;
   --light-secondary-color-darker: #114B5F;
@@ -67,6 +67,7 @@ header {
 nav {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -77,10 +78,6 @@ nav > span {
   font-weight: 300;
   line-height: normal;
   color: var(--light-background-color);
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-  margin-top: 0rem;
-  margin-bottom: 0.25rem;
 }
 
 nav > span > a {
@@ -153,6 +150,10 @@ a:visited {
   text-decoration: underline line-through 10%;
 }
 
+mark {
+  background-color: var(--light-accent-color);
+}
+
 footer * a {
   color: var(--light-background-color);
 }
@@ -166,6 +167,7 @@ footer * a {
 #billboard {
   display: flex;
   flex-wrap: wrap;
+  line-height: 4.5em;
 }
 
 #billboard > * > * {
@@ -183,7 +185,6 @@ footer * a {
   display: inline-block;
   font-size: 1.75rem;
   align-self: end;
-  margin-top: 1rem;
 }
 
 .bungee-inline {
@@ -306,13 +307,20 @@ ul#contact {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 1rem auto; /* centers in column */
-  border-radius: 8px; /* optional: rounded corners */
+  margin: 2.5rem auto 0rem auto; /* centers in column */
+  border-radius: 8px; /* rounded corners */
+}
+
+summary {
+  cursor: context-menu;
+}
+
+#wcb {
+  margin-bottom: 2.5rem;
 }
 
 /* Customizing Website Carbon Badge CSS */
 
-/*
 #wcb_p {
   text-align: start !important;
 }
@@ -336,10 +344,5 @@ ul#contact {
   font-weight: 500 !important;
   line-height: normal !important;
 }
-*/
 
 /* Website Carbon Badge Custom CSS ends */
-
-summary {
-  cursor: context-menu;
-}
