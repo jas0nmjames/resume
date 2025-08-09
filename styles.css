@@ -117,8 +117,8 @@ section {
 }
 
 article {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+  /* margin-top: 2.5rem; */
+  margin-bottom: 4rem;
 }
 
 footer {
@@ -239,6 +239,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 2.5rem;
 }
 
 h3 {
@@ -247,8 +248,8 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -257,7 +258,7 @@ h4 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 0rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
 
