@@ -227,10 +227,9 @@ footer * a {
   color: var(--light-secondary-color-darker);
 }
 
-h1 {
-  font-size: 2.5rem; /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
-  overflow-wrap: break-word;
-  /* font-size: clamp(2.5rem, 4.75rem, 7rem); */ /* doesn't work */
+.visually-hidden {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;
 }
 
 h2 {
