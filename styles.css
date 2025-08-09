@@ -117,8 +117,8 @@ section {
 }
 
 article {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+  /* margin-top: 2.5rem; */
+  margin-bottom: 4rem;
 }
 
 footer {
@@ -227,10 +227,9 @@ footer * a {
   color: var(--light-secondary-color-darker);
 }
 
-h1 {
-  font-size: 2.5rem; /* thank you MDN Docs (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text) */
-  overflow-wrap: break-word;
-  /* font-size: clamp(2.5rem, 4.75rem, 7rem); */ /* doesn't work */
+.visually-hidden {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;
 }
 
 h2 {
@@ -239,6 +238,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 2.5rem;
 }
 
 h3 {
@@ -247,8 +247,8 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -257,7 +257,7 @@ h4 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 0rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
 
