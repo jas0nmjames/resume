@@ -2,6 +2,8 @@
 
 An evergreen résumé in html & css.
 
+> Jason James is a digital designer aiming for the triple-bottom-line of success: for people, for the planet, and for profit.
+
 ## Current Status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/93e8e12d-7866-4071-9a7f-5560b4e0ecd3/deploy-status)](https://app.netlify.com/sites/jas0nmjames-resume/deploys)
