@@ -345,4 +345,13 @@ summary {
   line-height: normal !important;
 }
 
+/* #wcb:empty fix assisted by:
+   Model:        Claude Sonnet 4.6 (claude-sonnet-4-6)
+   Provider:     Anthropic – https://anthropic.com
+   Interface:    Claude.ai – https://claude.ai
+   Date:         March 10, 2026 */
+#wcb:empty {
+  display: none;
+}
+
 /* Website Carbon Badge Custom CSS ends */
