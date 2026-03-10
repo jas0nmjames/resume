@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml for jasonjames.design
+  Jason James – Product, UX & Conversational AI Designer
+
+  Configuration assisted by:
+  Model:        Claude Sonnet 4.6 (claude-sonnet-4-6)
+  Provider:     Anthropic – https://anthropic.com
+  Interface:    Claude.ai – https://claude.ai
+  Date:         March 10, 2026
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/0.5/sitemap">
+  <url>
+    <loc>https://jasonjames.design/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
