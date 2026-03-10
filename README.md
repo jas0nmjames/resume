@@ -2,10 +2,6 @@
 
 An evergreen résumé in html & css.
 
-> Jason James is a digital designer aiming for the triple-bottom-line of success: for people, for the planet, and for profit.
-
-## Current Status
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/93e8e12d-7866-4071-9a7f-5560b4e0ecd3/deploy-status)](https://app.netlify.com/sites/jas0nmjames-resume/deploys)
 
 ## Rationale
@@ -30,6 +26,7 @@ An evergreen résumé in html & css.
 
 ## Progress Journal
 
+- 2026-03 - changed domain from resume.jasonjames.works to [jasonjames.design](https://jasonjames.design/)
 - 2025-08 - added [NowNowNow](https://nownownow.com/) page
 - 2024-04 - cleaned up navigation links and cleaned up inline comments in html.  added social links.  
 - 2023-09-21 - H1 "billboard" multi-layer type is in a good place
