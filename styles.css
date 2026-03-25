@@ -167,11 +167,11 @@ footer * a {
 #billboard {
   display: flex;
   flex-wrap: wrap;
-  line-height: 4.5em;
+  line-height: 4em;
 }
 
 #billboard > * > * {
-  font-size: 4.5rem;
+  font-size: 4rem;
   /* font-size: clamp(2.5rem, 5rem, 10rem); */
   display: inline-block;
 }
@@ -179,12 +179,6 @@ footer * a {
 .multilayer {
   margin: 0rem;
   display: grid;
-}
-
-#current-url > * {
-  display: inline-block;
-  font-size: 1.75rem;
-  align-self: end;
 }
 
 .bungee-inline {
