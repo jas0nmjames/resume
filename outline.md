@@ -6,6 +6,18 @@
 
 - Remediation of accessibility issues in the Virtual Assistant UI for the global bank.
 
+### 2026
+
+- Guidance to UX writers during ways of working & process changes & helped propose the best 'source of truth' for copy amongst a siloed product development process.
+
+### 2025
+
+- Hired and managed summer intern [Evan O'neil](https://www.evanoneil.us/)
+
+### 2024
+
+- Hired and managed summer intern [Abby Luo](https://www.abbyluo.me/)
+
 ### 2023
 
 #### Activities
