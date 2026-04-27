@@ -77,6 +77,18 @@ An evergreen résumé in html & css.
 
 ## Credits
 
+## Attribution (AI + Automation)
+
+The following updates were implemented with assistance from **Cursor** as an AI coding agent (model: **GPT-5.2**) on **2026-04-27**:
+
+- SEO/structured data improvements in `index.html` (added `ProfilePage` JSON-LD and stronger identity linking via `rel="me"`).
+- Added an ATS/LLM-friendly plain-text resume layer in `index.html` for cleaner text extraction.
+- Updated `robots.txt` to allow broad crawling, allow selected AI search/index crawlers, and block training/dataset crawlers (best-effort).
+- Expanded `sitemap.xml` to include additional pages and the PDF URL.
+- Added build-time PDF generation (Netlify) using Puppeteer:
+  - `resume-pdf.html` + `pdf.css` as the PDF source
+  - `generate-pdf.mjs`, `package.json`, and `netlify.toml` to generate `assets/resume_jason-james.pdf` on deploy
+
 ### Typography
 
 #### Google Fonts
