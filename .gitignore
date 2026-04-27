@@ -1,1 +1,4 @@
 .DS_Store
+node_modules/
+.netlify/
+assets/resume_jason-james.pdf
