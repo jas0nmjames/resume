@@ -26,6 +26,22 @@ An evergreen résumé in html & css.
 
 ## Progress Journal
 
+- 2026-04 - created an auto-generated PDF resume with help from Cursor.
+
+- 2026-03 - created [animated 'billboard'](/billboard) with help from Claude
+
+Each letter of "jasonjames.design" is an independently bouncing particle that randomly grows and shrinks, rendered with the full four-layer Bungee stacking effect.
+
+Text-measurement technique inspired by Pretext (https://github.com/chenglou/pretext) by Cheng Lou: a hidden <canvas> measures character width at any font size so layout math is pure arithmetic — no DOM reflow in the animation hot path.
+
+Created by  : Claude Sonnet 4.6  (claude-sonnet-4-6)
+Provider    : Anthropic          https://anthropic.com
+Interface   : Claude Code        https://claude.ai/claude-code
+Created     : 2026-03-30
+Updated     : 2026-03-30 — ordered initial layout, staggered
+              physics launch, 60 s drag-freeze, delta-time
+              animation loop, CSS scale compositing
+
 - 2026-03 - changed domain from resume.jasonjames.works to [jasonjames.design](https://jasonjames.design/)
 - 2025-08 - added [NowNowNow](https://nownownow.com/) page
 - 2024-04 - cleaned up navigation links and cleaned up inline comments in html.  added social links.  
