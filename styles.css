@@ -315,8 +315,12 @@ summary {
 
 /* Customizing Website Carbon Badge CSS */
 
+#wcb_2 {
+  color: var(--light-primary-color) !important;
+}
+
 #wcb_p {
-  text-align: start !important;
+  text-align: center !important;
 }
 
 #wcb_g {
